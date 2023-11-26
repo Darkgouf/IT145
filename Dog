@@ -1,0 +1,30 @@
+
+public class Dog extends Pet {
+	private int dogSpaceNumber;
+	public int getdogSpaceNumber() {
+		return dogSpaceNumber;
+	}
+	public void set dogSpaceNumber(int dogSpaceNumber) {
+		this.dogSpaceNumber = dogSpaceNumber
+	}
+	private double dogWeight;
+	public double getdogWeight() {
+		return dogWeight;
+	}
+	public void set dogWeight(double dogWeight) {
+		this.dogSpaceNumber
+	}
+	private boolean grooming; 
+	public boolean getgrooming() {
+		return grooming;
+	}
+	public void set grooming(boolean grooming) {
+		this.grooming
+	}
+	public Dog() {
+		name = "Spot";
+		breed = "Labrador";
+		age = "2";
+		color = "yellow";
+	}
+}
