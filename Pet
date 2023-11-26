@@ -1,0 +1,65 @@
+public class Pet{
+	//First we need to set petName in order to know who we are work with
+	private String petName;
+		public String getPetName() {
+			return this.petName;
+		}
+		public void setPetName(String petName) {
+			this.petName = newPetName;
+		}
+	
+		//Next we will set petType
+	private String petType;
+		public String getPetType() {
+			return this.petType;
+		}
+		public void setPetType(String petType) {
+			this.petType = newPetType;
+		}
+		
+	// Now we will move to petAge. We will only be working in years not months.
+		private int petAge;
+			public int getPetAge() {
+				return this.petAge;
+			}
+			public void setPetAge(int petAge) {
+				this.petAge = newPetAge;
+			}
+			
+		//Now we set spaces for both cats and dogs.
+		private int dogSpaces;
+			public int getDogSpaces() {
+				return this.dogSpaces;
+			}
+			public void setDogSpaces(int dogSpaces) {
+				this.dogSpaces = newDogSpaces;
+			}
+		private int catSpaces;
+			public int getCatSpaces() {
+				return this.catSpaces;
+			}
+			public void setCatSpaces(int catSpaces) {
+				this.catSpaces = newCatSpaces;
+			}
+			
+		// Now we will set up how many days staying as well amount owe.
+		// In days stay we will change full price for a day if over time allow. Same as a car rental.	
+ 		private int daysStay;
+ 			public int getDaysStay() {
+ 				return this.daysStay;
+ 			}
+ 		private double amountDue;
+ 			public void setAmountDue(double amountDue) {
+ 				this.amountDue = newAmountDue;
+ 			}
+ 			
+ 		//Now to make a constructor.
+ 		public Pet() {
+ 			name = "Kitty";
+ 			type = "Cat";
+ 			age = "5";
+ 			space = "3";
+ 			days = "4";
+ 			amount = "$72"
+ 		}
+}
